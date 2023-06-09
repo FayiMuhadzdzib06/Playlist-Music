@@ -85,6 +85,7 @@ container.addEventListener('click', (e) => {
 
                 // audionya nyala
                 audio.play();
+                audio.setAttribute('autoloop', '');
                 
                 let pauseIcon = e.target;
                 pauseIcon.src = 'img/pause.svg';
